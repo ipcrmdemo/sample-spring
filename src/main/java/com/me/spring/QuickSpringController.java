@@ -17,4 +17,9 @@ class QuickSpringController {
         return "Hello, Thompson! Add /hello/there to the URL to get a friendly reply.";
     }
 
+    @GetMapping(path = "/blah")
+    public String root() {
+        return "Hello, blah!";
+    }
+
 }
