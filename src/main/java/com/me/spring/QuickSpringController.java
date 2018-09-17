@@ -18,7 +18,7 @@ class QuickSpringController {
     }
 
     @GetMapping(path = "/blah")
-    public String root() {
+    public String blah() {
         return "Hello, blah!";
     }
 
